@@ -1,0 +1,2 @@
+#just your average minecraft eula btw I write a different message in each eula.txt file for each server version lol
+eula=true
