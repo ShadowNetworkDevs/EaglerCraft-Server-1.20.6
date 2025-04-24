@@ -1,5 +1,5 @@
 connection_throttle: 4000
-online_mode: true
+online_mode: false
 remote_ping_timeout: 5000
 groups:
   md_5:
@@ -26,11 +26,11 @@ listeners:
   - lobby
   bind_local_address: true
   host: 0.0.0.0:25577
-  max_players: 1
+  max_players: 100
   tab_size: 60
   force_default_server: false
 server_connect_timeout: 5000
-ip_forward: false
+ip_forward: true
 max_packets_per_second: 4096
 disabled_commands:
 - disabledcommandhere
